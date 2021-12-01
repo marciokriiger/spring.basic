@@ -16,7 +16,7 @@ import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatTypes;
 import com.mkriiger.spring.basic.entities.enums.OrderStatus;
 
 @Entity
-@Table(name = "db_order")
+@Table(name = "tb_order")
 public class Order implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
